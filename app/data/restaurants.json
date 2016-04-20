@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Corner Bakery Cafe",
+		"restaurant_type": "Bakery",
+		"city": "Dallas",
+		"distance": "1.0mi",
+		"cost": "$$",
+		"love": "80%",
+		"ratings": {
+			"avg_stars": 3.0,
+			"total_ratings": 22
+		},
+		"description": "Based in your ratings of earZiS Market & Bakery and Corner Bakery Cafe you'll like",
+		"cover": "/images/cornerbakery.jpg"
+	},
+	{
+		"name": "Taco Joint",
+		"restaurant_type": "Tex-Mex",
+		"city": "Dallas",
+		"distance": "1.9mi",
+		"cost": "$",
+		"love": "85%",
+		"ratings": {
+			"avg_stars": 3.5,
+			"total_ratings": 87
+		},
+		"description": "You like this place. Try it again?",
+		"cover": "/images/tacojoint.jpg"
+	},
+	{
+		"name": "Mainland China",
+		"restaurant_type": "Chineese",
+		"city": "Bangalore",
+		"distance": "1.0mi",
+		"cost": "$$$",
+		"love": "88%",
+		"ratings": {
+			"avg_stars": 3.8,
+			"total_ratings": 50
+		},
+		"description": "You like this place. Try it again?",
+		"cover": "/images/restaurant.jpg"
+	},
+	{
+		"name": "Dosa Place",
+		"restaurant_type": "South Indian",
+		"city": "San Francisco",
+		"distance": "10.0mi",
+		"cost": "$$",
+		"love": "92%",
+		"ratings": {
+			"avg_stars": 4.1,
+			"total_ratings": 32
+		},
+		"description": "You like this place. Try it again?",
+		"cover": "/images/dosaplace.jpg"
+	}
+]

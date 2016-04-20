@@ -1,0 +1,114 @@
+.card{
+	margin: 10% 5%;
+	box-shadow: 0px 20px 30px -5px #aaa;
+}
+
+.card .top{
+	color: #fff;
+	background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+    padding: 24% 0 40% 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.card .love{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 1.1em;
+}
+
+.card .info{
+	background-color: rgba(0, 0, 0, 0.43);
+    padding: 20px;
+    position: relative;
+    height: 11em;
+}
+
+.card .info .name{
+	font-weight: 500;
+    font-size: 1.8em;
+    white-space: initial;
+}
+
+.card .info > *{
+	margin: 5px 0;
+}
+
+.card .info .fa-angle-right{
+	position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.card .mid{
+	padding: 0 20px;
+	margin-bottom: -1em;
+	background-color: #fbfbfb;
+}
+
+.card .mid .express-love{
+    width: 20%;
+    position: relative;
+    top: -2px;
+    left: 0px;
+    vertical-align: top;
+    padding: 14px;
+    background-color: rgb(4, 208, 241);
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.card .mid .fa-heart{
+	font-size: 1.2em;
+    color: #fff;
+}
+
+.card .mid p{
+	width: 70%;
+    overflow: hidden;
+    display: -webkit-box;
+  	-webkit-line-clamp: 3;
+  	-webkit-box-orient: vertical;
+  	position: relative;
+    left: 28%;
+    top: -1.5em;
+    min-height: 3.8em;
+    margin-bottom: 10px;
+    white-space: normal;
+}
+
+.card .actions{
+	background-color: #fff;
+}
+
+.card .actions > span{
+	width: 33%;
+    display: inline-block;
+}
+
+.card .actions > span:not(:first-child){
+	margin-left: -4px;
+    	border-left: 2px solid #f5f5f5;
+}
+
+.card .actions .action{
+	color: rgb(103, 100, 100);
+	font-weight: 700;
+    background-color: #f5f5f5;
+	display: inline-block;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.card .actions .fa{
+	color: rgba(171, 167, 167, 0.7);
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
